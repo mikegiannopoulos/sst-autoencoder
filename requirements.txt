@@ -1,0 +1,25 @@
+# Core scientific stack
+matplotlib
+netCDF4
+numpy
+pandas
+pydap
+scipy
+xarray
+
+# Deep learning
+torch
+torchvision
+torchmetrics
+
+# Dimensionality reduction and clustering
+scikit-learn
+umap-learn
+
+# Visualization
+cartopy
+seaborn
+
+# Utilities
+jupyterlab
+tqdm
