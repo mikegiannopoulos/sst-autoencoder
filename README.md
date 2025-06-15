@@ -5,6 +5,21 @@ This project applies a **self-supervised deep learning** pipeline to daily NOAA 
 
 ---
 
+## 🌐 Scalability & Design Philosophy
+
+This project serves as a **foundational pipeline** for extracting climate patterns from SST data. Its architecture is intentionally designed for scalability:
+
+- **Temporal Scaling**: Handles multi-year datasets by design 
+- **Variable Expansion**: Latent embeddings can incorporate additional variables (e.g., salinity, currents) 
+- **Production-Ready Core**: Modular code in `src/` and `notebooks/` separates data loading, training, and analysis 
+
+The current implementation uses a **focused subset of 2024 data** to: 
+1. Demonstrate methodology clearly 
+2. Enable rapid experimentation 
+3. Provide a template for extension to larger studies 
+
+---
+
 ## 🧠 Overview
 
 - Download and explore NOAA SST data
